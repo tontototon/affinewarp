@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "affinewarp"
+dynamic = ["version"]
+requires-python = ">=3.7"
+dependencies = [
+  "numpy>=1.19",
+  "scipy",
+  "matplotlib",
+  "numba",
+  "tqdm",
+  "scikit-learn",
+  "pytest",
+]
+authors = [
+  {name = "Alex Williams", email="alex.h.williams@nyu.edu"},
+  {name = "Niru Maheswaranathan", email="niru@hey.com"},
+]
+description = "Code for time warping multi-dimensional time series."
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+Homepage = "https://github.com/ahwillia/affinewarp"
+
+[tool.setuptools.dynamic]
+version = {attr = "affinewarp.__version__"}
