@@ -21,7 +21,7 @@ authors = [
 ]
 description = "Code for time warping multi-dimensional time series."
 readme = "README.md"
-license = {file = "LICENSE.md"}
+license = {file = "LICENSE"}
 
 [project.urls]
 Homepage = "https://github.com/ahwillia/affinewarp"
