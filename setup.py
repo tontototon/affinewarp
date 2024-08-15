@@ -2,11 +2,11 @@ import setuptools
 
 setuptools.setup(
     name="affinewarp",
-    version="0.1.0",
+    version="0.2.0",
     url="https://github.com/ahwillia/affinewarp",
 
     author="Alex Williams",
-    author_email="ahwillia@stanford.edu",
+    author_email="alex.h.williams@nyu.edu",
 
     description="Time warping under affine warping functions",
     # long_description=open('README.rst').read(),
